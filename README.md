@@ -46,10 +46,10 @@ Explore Docker for managing microservices deployment, portability, and scalabili
 
 ### Docker Command	Description
 
-- `docker build . -t eazybytes/accounts:s4`:
+- `docker build . -t <username>/accounts:s4`:
   Generate a Docker image based on a Dockerfile.
 
-- `docker run -p 8080:8080 eazybytes/accounts:s4`:
+- `docker run -p 8080:8080 <username>/accounts:s4`:
   Start a Docker container based on a given image.
 
 - `docker images`:
@@ -61,10 +61,10 @@ Explore Docker for managing microservices deployment, portability, and scalabili
 - `docker image rm image-id`:
   Remove one or more images for a given image IDs.
 
-- `docker image push docker.io/eazybytes/accounts:s4`:
+- `docker image push docker.io/<username>/accounts:s4`:
   Push an image or a repository to a registry.
 
-- `docker image pull docker.io/eazybytes/accounts:s4`:
+- `docker image pull docker.io/<username>/accounts:s4`:
   Pull an image or a repository from a registry.
 
 - Other Docker commands as per your requirement.
